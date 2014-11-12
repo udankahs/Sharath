@@ -18,9 +18,9 @@ public class SuperTestNG
 		driver.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
 		driver.get("https://email.abbvie.com");
 	}
-	@AfterMethod
-	public void postCondition()
-	{
-	   driver.quit();	
-	}
+//	@AfterMethod
+//	public void postCondition()
+//	{
+//	   driver.quit();	
+//	}
 }
